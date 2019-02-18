@@ -1,0 +1,12 @@
+netty:
+  tcp:
+    port: 8085
+  boss:
+    thread:
+      count: 200
+  worker:
+    thread:
+      count: 200
+  so:
+    keepalive: true
+    backlog: 100
